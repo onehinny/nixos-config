@@ -1,5 +1,3 @@
-nix-shell -p git --command "git clone -b init https://github.com/onehinny/nixos-config.git"
-
 # Rebuild system
 sudo nixos-rebuild switch --flake .
 

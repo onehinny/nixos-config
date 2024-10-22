@@ -16,8 +16,8 @@
         locale = "de_DE.utf-8";
       };
       userSettings = rec {
-	      username = "onehinny";
-        name = onehinny";
+        username = "onehinny";
+        name = "onehinny";
       };
       lib = nixpkgs.lib;
       pkgs = nixpkgs.legacyPackages.${systemSettings.system};

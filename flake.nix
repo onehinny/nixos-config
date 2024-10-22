@@ -16,8 +16,8 @@
         locale = "de_DE.utf-8";
       };
       userSettings = rec {
-	username = "backup";
-        name = "Backup";
+	      username = "onehinny";
+        name = onehinny";
       };
       lib = nixpkgs.lib;
       pkgs = nixpkgs.legacyPackages.${systemSettings.system};
@@ -36,14 +36,14 @@
       };
       homeConfigurations = {
         backup = home-manager.lib.homeManagerConfiguration {
-	  inherit pkgs;
-	  modules = [ 
-	    ./hosts/backup/home.nix 
-	  ];
+	        inherit pkgs;
+          modules = [ 
+            ./hosts/backup/home.nix 
+          ];
           extraSpecialArgs = {
             inherit userSettings;          
           };
-	};
+        };
       };
     };
 }

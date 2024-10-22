@@ -7,7 +7,7 @@
       ./hardware-configuration.nix
       ../base.nix
       ( import ../../system/security/sshd.nix {
-                authorizedKeys = [ "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC8BtHOmi6RTgFIjeFlQyzTKBVXYBBPwTdujVvxI9AqtjRsEEvSvgYfs4WogkUHoS5jmSC/ppeGZnrZlx/dhOW0s8VX8i23Fu4ATG8TSTEfUG4tyefJU2QwSH015Z1cgncjm1XDwdwCYRw/ieHG60OYYtOIb5Hdx81u78ZhCuVi4f99CkQuWzflVWNIOdfjRT6DKdbm0puG8qblmyTuI/tBzrxSFXepP9uF6McBCmUAdXRCVROQCY6W7w5a3nQLrVzkVq+pl80fI313pODMEjsqNafHdPWQg+Hq6ahKmDVn6T37aF2KVQiEBy5fgyoyfoauwxBMPLFLnp7OIZPcIPTR8U4KrFGrHHoH0hY7owUUyPcw+luhg+ucWS2otbWPhYjkAG8qHaJbd1k1IM9qKEs92UCA3ZxokboT2qRN3cqfdl4PlpBk6Co7jsfT79DzH34wOy1Sw6QJzS380sSz00BLbXQQt+C3Z/kC11y7jYku+vTGztXJIrugAfRytMCziBU= onehinny@mbp"]
+                authorizedKeys = [ "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC8BtHOmi6RTgFIjeFlQyzTKBVXYBBPwTdujVvxI9AqtjRsEEvSvgYfs4WogkUHoS5jmSC/ppeGZnrZlx/dhOW0s8VX8i23Fu4ATG8TSTEfUG4tyefJU2QwSH015Z1cgncjm1XDwdwCYRw/ieHG60OYYtOIb5Hdx81u78ZhCuVi4f99CkQuWzflVWNIOdfjRT6DKdbm0puG8qblmyTuI/tBzrxSFXepP9uF6McBCmUAdXRCVROQCY6W7w5a3nQLrVzkVq+pl80fI313pODMEjsqNafHdPWQg+Hq6ahKmDVn6T37aF2KVQiEBy5fgyoyfoauwxBMPLFLnp7OIZPcIPTR8U4KrFGrHHoH0hY7owUUyPcw+luhg+ucWS2otbWPhYjkAG8qHaJbd1k1IM9qKEs92UCA3ZxokboT2qRN3cqfdl4PlpBk6Co7jsfT79DzH34wOy1Sw6QJzS380sSz00BLbXQQt+C3Z/kC11y7jYku+vTGztXJIrugAfRytMCziBU= onehinny@mbp"];
                 inherit userSettings; })     
     ];
 

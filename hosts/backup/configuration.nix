@@ -12,8 +12,12 @@
     ];
 
   # Bootloader.
-  boot.loader.systemd-boot.enable = true;
-  boot.loader.efi.canTouchEfiVariables = true;
+  # boot.loader.systemd-boot.enable = true;
+  # boot.loader.efi.canTouchEfiVariables = true;
+
+  boot.supportedFilesystems = [ "zfs" ];
+  boot.zfs.forceImportRoot = false;
+  networking.hostId = "1fc28833"; # generated via "head -c4 /dev/urandom | od -A none -t x4"
 
   # List packages installed in system profile. To search, run:
   # $ nix search wget

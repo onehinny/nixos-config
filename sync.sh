@@ -1,2 +1,2 @@
-sudo nixos-rebuild switch --flake .
-home-manager switch --flake .
+sudo nixos-rebuild switch --flake .#backup
+home-manager switch --flake .#backup
